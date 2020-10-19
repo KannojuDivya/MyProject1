@@ -6,9 +6,16 @@ namespace MyProject1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-
             Console.WriteLine("learning");
+
+            Console.WriteLine("enter your name");
+
+            String Username = Console.ReadLine();
+
+            Console.WriteLine("Hello" + Username );
+
+            Console.WriteLine("hello{0}", Username );
+
         }
     }
 }
